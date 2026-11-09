@@ -20,8 +20,8 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
-        .package(url: "https://github.com/AddApptr/AATKit-GraviteRTB.git", exact: "3.18.0"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.19.0-beta1"),
+        .package(url: "https://github.com/AddApptr/AATKit-GraviteRTB.git", exact: "3.19.0-beta1"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -40,13 +40,13 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATDigitalTurbineBiddingAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATDigitalTurbineBiddingAdapter.zip",
-            checksum: "841d63994ea53d4220ffc22e49684ee1bdba7493d04531a8a77a40e5e7fe0733"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AATDigitalTurbineBiddingAdapter.zip",
+            checksum: "eb4fdc07bd4083caf84b3886eda91efede8ee5028a91084faf40e278a01c3707"
         ),
         .binaryTarget(
             name: "AATIASDKCore",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/IASDKCore.zip",
-            checksum: "f0e1716447b0629a606941da3bf055502d52f8effc9462eb4d6cffb0d218b9ce"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/IASDKCore.zip",
+            checksum: "309f7577a8c28dc4df640b3d3967701c8eca992a53e87da07c95a99726dfd795"
         ),
     ]
 )
